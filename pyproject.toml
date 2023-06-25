@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hw-07"
+version = "0.1.0"
+description = ""
+authors = ["MONSMIN <99141331+MONSMIN@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hw_07"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.17"
+faker = "^18.11.1"
+psycopg2 = "^2.9.6"
+alembic = "^1.11.1"
+prettytable = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
